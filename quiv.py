@@ -15,5 +15,5 @@ V = a[1][0] * X + a[1][1] * Y
 plt.quiver(X,Y,U,V,color='black',angles='xy',scale_units='xy', scale=4.5)
 plt.xlim(-XL,XL)
 plt.ylim(-YL,YL)
-plt.savefig("1/i.png")
+plt.savefig("images/i.png")
 plt.show()
